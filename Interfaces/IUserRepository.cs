@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MyApp.Dto;
+using MyApp.Dto.Roles;
 using MyApp.Models;
 
 namespace MyApp.Interfaces
@@ -13,5 +14,6 @@ namespace MyApp.Interfaces
         Task<User> Create(CreateUserDto userDto);
         Task<User> GetById(int id);
         Task<List<ShowUserDto>> GetAll();
+        Task<ShowUserDto> UpdateRole(UpdateRoleDto updateRoleDto);
     }
 }

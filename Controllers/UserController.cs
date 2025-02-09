@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MyApp.Data;
 using MyApp.Dto;
+using MyApp.Dto.Roles;
 using MyApp.Interfaces;
 using MyApp.Mappers;
 using MyApp.Models;
@@ -58,6 +59,13 @@ namespace MyApp.Controllers
         {
             var users = await _userRepo.GetAll();
             return Ok(users);
+        }
+        [HttpPut("update_role")]
+        public async Task<IActionResult> UpdateRole([FromBody] UpdateRoleDto updateRoleDto)
+        {
+            var result = await _userRepo.UpdateRole(updateRoleDto);
+
+            return Ok(result);
         }
     }
 }
