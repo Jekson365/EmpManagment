@@ -1,3 +1,11 @@
+/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.csproj.AssemblyReference.cache
+/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.AssemblyInfoInputs.cache
+/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.AssemblyInfo.cs
+/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.csproj.CoreCompileInputs.cache
+/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.MvcApplicationPartsAssemblyInfo.cs
+/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.MvcApplicationPartsAssemblyInfo.cache
+/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.sourcelink.json
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/appsettings.Development.json
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/appsettings.json
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/MyApp
@@ -33,6 +41,7 @@
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/Microsoft.OpenApi.dll
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/Mono.TextTemplating.dll
+/home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/Newtonsoft.Json.dll
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/Npgsql.dll
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
@@ -114,13 +123,6 @@
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
-/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.csproj.AssemblyReference.cache
-/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
-/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.AssemblyInfoInputs.cache
-/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.AssemblyInfo.cs
-/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.csproj.CoreCompileInputs.cache
-/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.MvcApplicationPartsAssemblyInfo.cs
-/home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/MyApp.MvcApplicationPartsAssemblyInfo.cache
 /home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/staticwebassets.build.json
 /home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/staticwebassets.development.json
 /home/jeko/Desktop/css/try/MyApp/obj/Debug/net8.0/staticwebassets/msbuild.MyApp.Microsoft.AspNetCore.StaticWebAssets.props

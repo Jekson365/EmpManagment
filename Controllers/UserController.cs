@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MyApp.Data;
 using MyApp.Dto;
 using MyApp.Interfaces;
+using MyApp.Mappers;
 using MyApp.Models;
 
 namespace MyApp.Controllers
@@ -27,28 +28,36 @@ namespace MyApp.Controllers
             _userRepo = userRepo;
             _validator = validator;
         }
+
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] CreateUserDto userModel)
         {
             if (userModel.Icon is null)
             {
-                return BadRequest(new { Errors = new[] { "Imagee is required" } });
-            }
-            var userRecord = new User
-            {
-                Name = userModel.Name,
-                Surname = userModel.Surname,
-                Email = userModel.Email,
-            };
-
-            var validateRecord = _validator.Validate(userRecord);
-            if (!validateRecord.IsValid)
-            {
-                return BadRequest(validateRecord);
+                return BadRequest(new { Errors = new[] { "Image is required" } });
             }
             var result = await _userRepo.Create(userModel);
-            return Ok(result);
+            return Ok(result.ToCreateUserDto());
 
+        }
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<IActionResult> GetById([FromRoute] int id)
+        {
+            var user = await _userRepo.GetById(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(user.ToShowUserDto());
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var users = await _userRepo.GetAll();
+            return Ok(users);
         }
     }
 }
