@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
 using MyApp.Dto;
+using MyApp.Dto.Roles;
 using MyApp.Interfaces;
 using MyApp.Mappers;
 using MyApp.Models;
@@ -56,6 +57,7 @@ namespace MyApp.Repositories
                     await _context.Users.AddAsync(userRecord);
                     await _context.SaveChangesAsync();
                     await transaction.CommitAsync();
+
                     return userRecord;
                 }
                 else
@@ -88,6 +90,24 @@ namespace MyApp.Repositories
             .FirstOrDefaultAsync(x => x.Id == id);
 
             return result;
+        }
+
+        public async Task<ShowUserDto> UpdateRole(UpdateRoleDto updateRoleDto)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == updateRoleDto.UserId);
+            var role = await _context.Roles.FirstOrDefaultAsync(r => r.Id == updateRoleDto.RoleId);
+            if (user == null)
+            {
+                throw new KeyNotFoundException("user was not foujnd");
+            }
+            if (role == null)
+            {
+                throw new KeyNotFoundException("role was not found");
+            }
+
+            user.RoleId = role.Id;
+            await _context.SaveChangesAsync();
+            return user.ToShowUserDto();
         }
     }
 }
