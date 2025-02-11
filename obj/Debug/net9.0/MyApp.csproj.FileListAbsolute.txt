@@ -129,3 +129,4 @@
 /home/jeko/Desktop/css/try/MyApp/obj/Debug/net9.0/MyApp.pdb
 /home/jeko/Desktop/css/try/MyApp/obj/Debug/net9.0/MyApp.genruntimeconfig.cache
 /home/jeko/Desktop/css/try/MyApp/obj/Debug/net9.0/ref/MyApp.dll
+/home/jeko/Desktop/css/try/MyApp/bin/Debug/net9.0/MyApp.staticwebassets.runtime.json
