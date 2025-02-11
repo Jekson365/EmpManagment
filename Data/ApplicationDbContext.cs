@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Models;
+using MyApp.Models.Tasks;
 
 namespace MyApp.Data
 {
@@ -27,6 +27,7 @@ namespace MyApp.Data
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
-
+        public DbSet<AssignedTask> AssignedTasks { get; set; }
+        public DbSet<Models.Tasks.Task> Tasks { get; set; }
     }
 }

@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MyApp.Models.Task
+namespace MyApp.Dto.Tasks
 {
-    public class Task
+    public class NewTaskDto
     {
-        public int Id { get; set; }
         public string Title { get; set; } = String.Empty;
         public string Description { get; set; } = String.Empty;
     }

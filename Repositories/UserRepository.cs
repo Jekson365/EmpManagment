@@ -28,7 +28,7 @@ namespace MyApp.Repositories
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
             var hasher = new PasswordHasher<User>();
-            var targetDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwroot", "uploads");
+            var targetDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
             if (!Directory.Exists(targetDirectory))
             {
                 Directory.CreateDirectory(targetDirectory);
