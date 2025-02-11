@@ -15,5 +15,6 @@ namespace MyApp.Interfaces
         Task<User> GetById(int id);
         Task<List<ShowUserDto>> GetAll();
         Task<ShowUserDto> UpdateRole(UpdateRoleDto updateRoleDto);
+        Task<User?> GetByEmail(string Email);
     }
 }

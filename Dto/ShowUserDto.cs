@@ -12,5 +12,7 @@ namespace MyApp.Dto
         public int Id { get; set; }
         public string Name { get; set; } = String.Empty;
         public RoleDto Role { get; set; }
+        public string Email { get; set; } = String.Empty;
+        public int Age { get; set; }
     }
 }

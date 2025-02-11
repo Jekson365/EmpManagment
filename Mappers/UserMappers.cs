@@ -26,6 +26,8 @@ namespace MyApp.Mappers
             {
                 Id = userModel.Id,
                 Name = userModel.Name,
+                Email = userModel.Email,
+                Age = userModel.Age,
                 Role = new RoleDto
                 {
                     Id = userModel.Role.Id,

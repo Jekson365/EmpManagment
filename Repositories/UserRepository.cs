@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FluentValidation;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
@@ -26,6 +27,7 @@ namespace MyApp.Repositories
         public async Task<User?> Create(CreateUserDto userDto)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
+            var hasher = new PasswordHasher<User>();
             var targetDirectory = Path.Combine(Directory.GetCurrentDirectory(), "wwroot", "uploads");
             if (!Directory.Exists(targetDirectory))
             {
@@ -49,7 +51,8 @@ namespace MyApp.Repositories
                     Email = userDto.Email,
                     IconPath = uniqueFileName,
                     Age = userDto.Age,
-                    RoleId = role.Id
+                    RoleId = role.Id,
+                    Password = hasher.HashPassword(null, userDto.Password)
                 };
                 var validateUser = _validator.Validate(userRecord);
                 if (validateUser.IsValid)
@@ -88,6 +91,13 @@ namespace MyApp.Repositories
             var result = await _context.Users
             .Include(r => r.Role)
             .FirstOrDefaultAsync(x => x.Id == id);
+
+            return result;
+        }
+
+        public async Task<User?> GetByEmail([FromBody] string email)
+        {
+            var result = await _context.Users.Where(u => u.Email == email).FirstOrDefaultAsync();
 
             return result;
         }

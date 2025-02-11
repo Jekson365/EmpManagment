@@ -13,5 +13,6 @@ namespace MyApp.Dto
         public string Email { get; set; } = String.Empty;
         public int Age { get; set; }
         public IFormFile? Icon { get; set; }
+        public string Password { get; set; } = String.Empty;
     }
 }
