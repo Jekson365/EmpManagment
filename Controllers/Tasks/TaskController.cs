@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,7 @@ namespace MyApp.Controllers.Tasks
         {
             _context = context;
         }
+        [Authorize(Roles = "superadmin")]
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] NewTaskDto newTaskDto)
         {

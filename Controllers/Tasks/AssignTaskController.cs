@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
@@ -19,6 +20,7 @@ namespace MyApp.Controllers.Tasks
         {
             _context = context;
         }
+        [Authorize(Roles = "superadmin")]
         [HttpPost]
         public async Task<IActionResult> AssignTask([FromBody] AssignTaskDto assignTaskDto)
         {
@@ -33,6 +35,6 @@ namespace MyApp.Controllers.Tasks
 
             return Ok(assign);
         }
-        
+
     }
 }

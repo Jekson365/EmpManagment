@@ -1,19 +1,808 @@
 {
   "Version": 1,
-  "ManifestType": "Build",
+  "Hash": "dQ1VEEoig0k84oeJF5TRPzm2orRZ/mOfE08dqp7U4oY=",
+  "Source": "MyApp",
+  "BasePath": "_content/MyApp",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyApp/wwwroot",
+      "Source": "MyApp",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/0746cc80-38ca-4ec4-9efd-e9a52452f603__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/0746cc80-38ca-4ec4-9efd-e9a52452f603__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/0746cc80-38ca-4ec4-9efd-e9a52452f603__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/11c01259-675d-4eff-8f8f-990a65c37fea__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/11c01259-675d-4eff-8f8f-990a65c37fea__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/11c01259-675d-4eff-8f8f-990a65c37fea__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/139ef3d0-f009-4f4b-afa4-5420537dde12__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/139ef3d0-f009-4f4b-afa4-5420537dde12__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/139ef3d0-f009-4f4b-afa4-5420537dde12__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/1d8886c0-1960-41a9-98be-39c3eafcd207__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/1d8886c0-1960-41a9-98be-39c3eafcd207__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/1d8886c0-1960-41a9-98be-39c3eafcd207__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/1fb3bcc8-3f1a-4f8f-bf4e-5cfb0d4a59b4__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/1fb3bcc8-3f1a-4f8f-bf4e-5cfb0d4a59b4__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/1fb3bcc8-3f1a-4f8f-bf4e-5cfb0d4a59b4__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/2a33782b-7eef-415c-b98c-ff793476aaa3_unnamed-min (1) (1).jpg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/2a33782b-7eef-415c-b98c-ff793476aaa3_unnamed-min (1) (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rttmy1q7kb",
+      "Integrity": "f6Y9rUw2AQlcqn1wJSS3ChRPUZ0u36jGWjrg6JCz2MY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/2a33782b-7eef-415c-b98c-ff793476aaa3_unnamed-min (1) (1).jpg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/309be7be-f691-4ca3-a6c6-5cc55089d888__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/309be7be-f691-4ca3-a6c6-5cc55089d888__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/309be7be-f691-4ca3-a6c6-5cc55089d888__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/37d98076-01d0-4af5-95b1-d236179d79bc__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/37d98076-01d0-4af5-95b1-d236179d79bc__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/37d98076-01d0-4af5-95b1-d236179d79bc__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/3faaac86-38e6-4c73-9e17-89be3046cd54__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/3faaac86-38e6-4c73-9e17-89be3046cd54__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/3faaac86-38e6-4c73-9e17-89be3046cd54__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/4a60b459-0444-44fe-a121-3c48c095187f__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/4a60b459-0444-44fe-a121-3c48c095187f__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/4a60b459-0444-44fe-a121-3c48c095187f__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/57f5040e-b137-4b36-9bc3-a7819179e034_gratisography-cool-cat-800x525.jpg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/57f5040e-b137-4b36-9bc3-a7819179e034_gratisography-cool-cat-800x525#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hrgw49jb97",
+      "Integrity": "I6tiLkFXNiXGBF+1iiHvdtpTj9Md1bkWkiUCoOpWJf0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/57f5040e-b137-4b36-9bc3-a7819179e034_gratisography-cool-cat-800x525.jpg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/5eedcefe-0e2a-4820-9714-2ac5b1c73d87__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/5eedcefe-0e2a-4820-9714-2ac5b1c73d87__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/5eedcefe-0e2a-4820-9714-2ac5b1c73d87__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/60d75a00-898f-48df-9fd5-f4825918e18f__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/60d75a00-898f-48df-9fd5-f4825918e18f__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/60d75a00-898f-48df-9fd5-f4825918e18f__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/62e63936-d89d-4e47-9c31-9ca2a4e1f202__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/62e63936-d89d-4e47-9c31-9ca2a4e1f202__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/62e63936-d89d-4e47-9c31-9ca2a4e1f202__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/64b70327-5b6f-4611-a7ba-f751933d1216__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/64b70327-5b6f-4611-a7ba-f751933d1216__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/64b70327-5b6f-4611-a7ba-f751933d1216__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/70a8fad2-7089-4343-b074-c8aca8f3f278__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/70a8fad2-7089-4343-b074-c8aca8f3f278__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/70a8fad2-7089-4343-b074-c8aca8f3f278__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/72252b14-672c-41c5-be03-4166ff613fab__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/72252b14-672c-41c5-be03-4166ff613fab__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/72252b14-672c-41c5-be03-4166ff613fab__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/7264aee3-ca73-4258-ae72-ee7ddf2e4672__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/7264aee3-ca73-4258-ae72-ee7ddf2e4672__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/7264aee3-ca73-4258-ae72-ee7ddf2e4672__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/730ebf7e-bd23-49a0-a8c5-4af5ff6af13e_MainAfter.jpg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/730ebf7e-bd23-49a0-a8c5-4af5ff6af13e_MainAfter#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iqhwb5y2sv",
+      "Integrity": "yuBqAQ6xibVxsXcbt7gJOvlhsnYHBOgW5mWVUNdMvKY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/730ebf7e-bd23-49a0-a8c5-4af5ff6af13e_MainAfter.jpg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8472hq1von",
+      "Integrity": "eEZ5/1tWMAnVP15mSHK8INIt+qWCPVQ4Sgeme0GPvdw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/7c38b0e4-3d50-4e5b-a6b7-8c355907fc39__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/7c38b0e4-3d50-4e5b-a6b7-8c355907fc39__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/7c38b0e4-3d50-4e5b-a6b7-8c355907fc39__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/88402f2b-a92d-4eee-8d02-c55329e9aa96__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/88402f2b-a92d-4eee-8d02-c55329e9aa96__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/88402f2b-a92d-4eee-8d02-c55329e9aa96__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/95229c0b-a91f-40dd-8441-27b1fef147de__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/95229c0b-a91f-40dd-8441-27b1fef147de__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/95229c0b-a91f-40dd-8441-27b1fef147de__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/97d2080c-887a-460a-87be-980cc3afbcdb__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/97d2080c-887a-460a-87be-980cc3afbcdb__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/97d2080c-887a-460a-87be-980cc3afbcdb__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/aa3242f0-219f-487c-8b66-668896959f75__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/aa3242f0-219f-487c-8b66-668896959f75__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/aa3242f0-219f-487c-8b66-668896959f75__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/accca67f-e55d-4d0d-b295-69ab61187715__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/accca67f-e55d-4d0d-b295-69ab61187715__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/accca67f-e55d-4d0d-b295-69ab61187715__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/aedf7444-cd00-4e5f-82de-e983294acd7c__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/aedf7444-cd00-4e5f-82de-e983294acd7c__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/aedf7444-cd00-4e5f-82de-e983294acd7c__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/b908c28b-a560-4bef-8422-cb0a3ecc01cb__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/b908c28b-a560-4bef-8422-cb0a3ecc01cb__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/b908c28b-a560-4bef-8422-cb0a3ecc01cb__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/bf927f47-10e9-466f-9ce9-84677cabcc97__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/bf927f47-10e9-466f-9ce9-84677cabcc97__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/bf927f47-10e9-466f-9ce9-84677cabcc97__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/c249713e-f9d7-47f2-a262-8e45f14baaa7__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/c249713e-f9d7-47f2-a262-8e45f14baaa7__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/c249713e-f9d7-47f2-a262-8e45f14baaa7__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/d91cd596-3277-45f2-b682-3c01f03b4855__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/d91cd596-3277-45f2-b682-3c01f03b4855__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/d91cd596-3277-45f2-b682-3c01f03b4855__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/da93bc47-16a2-4708-83c7-28a40fc4a231__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/da93bc47-16a2-4708-83c7-28a40fc4a231__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/da93bc47-16a2-4708-83c7-28a40fc4a231__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/dcdb1e91-2cd9-4638-9f0c-4532b86626bd__ (1).jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/dcdb1e91-2cd9-4638-9f0c-4532b86626bd__ (1)#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3fgy83k4l",
+      "Integrity": "hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/dcdb1e91-2cd9-4638-9f0c-4532b86626bd__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/eb5445d0-d3fb-420b-acba-e18029ed8b9e__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/eb5445d0-d3fb-420b-acba-e18029ed8b9e__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/eb5445d0-d3fb-420b-acba-e18029ed8b9e__.jpeg"
+    }
+  ],
   "Endpoints": [
     {
       "Route": "uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg",
-      "AssetFile": "uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -30,6 +819,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -41,16 +834,12 @@
     },
     {
       "Route": "uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -67,6 +856,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -75,27 +868,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/0746cc80-38ca-4ec4-9efd-e9a52452f603__.jpeg",
-      "AssetFile": "uploads/0746cc80-38ca-4ec4-9efd-e9a52452f603__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/0746cc80-38ca-4ec4-9efd-e9a52452f603__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -112,6 +901,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 17:43:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -123,16 +916,12 @@
     },
     {
       "Route": "uploads/0746cc80-38ca-4ec4-9efd-e9a52452f603__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/0746cc80-38ca-4ec4-9efd-e9a52452f603__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/0746cc80-38ca-4ec4-9efd-e9a52452f603__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -149,6 +938,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 17:43:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -157,27 +950,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/0746cc80-38ca-4ec4-9efd-e9a52452f603__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/11c01259-675d-4eff-8f8f-990a65c37fea__.jpeg",
-      "AssetFile": "uploads/11c01259-675d-4eff-8f8f-990a65c37fea__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/11c01259-675d-4eff-8f8f-990a65c37fea__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -194,6 +983,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -205,16 +998,12 @@
     },
     {
       "Route": "uploads/11c01259-675d-4eff-8f8f-990a65c37fea__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/11c01259-675d-4eff-8f8f-990a65c37fea__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/11c01259-675d-4eff-8f8f-990a65c37fea__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -231,6 +1020,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -239,27 +1032,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/11c01259-675d-4eff-8f8f-990a65c37fea__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/139ef3d0-f009-4f4b-afa4-5420537dde12__ (1).jpeg",
-      "AssetFile": "uploads/139ef3d0-f009-4f4b-afa4-5420537dde12__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/139ef3d0-f009-4f4b-afa4-5420537dde12__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -276,6 +1065,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -287,16 +1080,12 @@
     },
     {
       "Route": "uploads/139ef3d0-f009-4f4b-afa4-5420537dde12__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/139ef3d0-f009-4f4b-afa4-5420537dde12__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/139ef3d0-f009-4f4b-afa4-5420537dde12__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -313,6 +1102,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -321,27 +1114,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/139ef3d0-f009-4f4b-afa4-5420537dde12__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/1d8886c0-1960-41a9-98be-39c3eafcd207__ (1).jpeg",
-      "AssetFile": "uploads/1d8886c0-1960-41a9-98be-39c3eafcd207__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/1d8886c0-1960-41a9-98be-39c3eafcd207__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -358,6 +1147,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -369,16 +1162,12 @@
     },
     {
       "Route": "uploads/1d8886c0-1960-41a9-98be-39c3eafcd207__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/1d8886c0-1960-41a9-98be-39c3eafcd207__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/1d8886c0-1960-41a9-98be-39c3eafcd207__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -395,6 +1184,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -403,27 +1196,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/1d8886c0-1960-41a9-98be-39c3eafcd207__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/1fb3bcc8-3f1a-4f8f-bf4e-5cfb0d4a59b4__ (1).jpeg",
-      "AssetFile": "uploads/1fb3bcc8-3f1a-4f8f-bf4e-5cfb0d4a59b4__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/1fb3bcc8-3f1a-4f8f-bf4e-5cfb0d4a59b4__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -440,6 +1229,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -451,16 +1244,12 @@
     },
     {
       "Route": "uploads/1fb3bcc8-3f1a-4f8f-bf4e-5cfb0d4a59b4__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/1fb3bcc8-3f1a-4f8f-bf4e-5cfb0d4a59b4__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/1fb3bcc8-3f1a-4f8f-bf4e-5cfb0d4a59b4__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -477,6 +1266,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -485,27 +1278,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/1fb3bcc8-3f1a-4f8f-bf4e-5cfb0d4a59b4__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/2a33782b-7eef-415c-b98c-ff793476aaa3_unnamed-min (1) (1).jpg",
-      "AssetFile": "uploads/2a33782b-7eef-415c-b98c-ff793476aaa3_unnamed-min (1) (1).jpg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/2a33782b-7eef-415c-b98c-ff793476aaa3_unnamed-min (1) (1).jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -522,6 +1311,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 12:12:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -533,16 +1326,12 @@
     },
     {
       "Route": "uploads/2a33782b-7eef-415c-b98c-ff793476aaa3_unnamed-min (1) (1).rttmy1q7kb.jpg",
-      "AssetFile": "uploads/2a33782b-7eef-415c-b98c-ff793476aaa3_unnamed-min (1) (1).jpg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/2a33782b-7eef-415c-b98c-ff793476aaa3_unnamed-min (1) (1).jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -559,6 +1348,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 12:12:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -567,27 +1360,23 @@
           "Value": "rttmy1q7kb"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-f6Y9rUw2AQlcqn1wJSS3ChRPUZ0u36jGWjrg6JCz2MY="
-        },
-        {
           "Name": "label",
           "Value": "uploads/2a33782b-7eef-415c-b98c-ff793476aaa3_unnamed-min (1) (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f6Y9rUw2AQlcqn1wJSS3ChRPUZ0u36jGWjrg6JCz2MY="
         }
       ]
     },
     {
       "Route": "uploads/309be7be-f691-4ca3-a6c6-5cc55089d888__ (1).jpeg",
-      "AssetFile": "uploads/309be7be-f691-4ca3-a6c6-5cc55089d888__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/309be7be-f691-4ca3-a6c6-5cc55089d888__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -604,6 +1393,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -615,16 +1408,12 @@
     },
     {
       "Route": "uploads/309be7be-f691-4ca3-a6c6-5cc55089d888__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/309be7be-f691-4ca3-a6c6-5cc55089d888__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/309be7be-f691-4ca3-a6c6-5cc55089d888__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -641,6 +1430,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -649,27 +1442,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/309be7be-f691-4ca3-a6c6-5cc55089d888__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/37d98076-01d0-4af5-95b1-d236179d79bc__ (1).jpeg",
-      "AssetFile": "uploads/37d98076-01d0-4af5-95b1-d236179d79bc__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/37d98076-01d0-4af5-95b1-d236179d79bc__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -686,6 +1475,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -697,16 +1490,12 @@
     },
     {
       "Route": "uploads/37d98076-01d0-4af5-95b1-d236179d79bc__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/37d98076-01d0-4af5-95b1-d236179d79bc__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/37d98076-01d0-4af5-95b1-d236179d79bc__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -723,6 +1512,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -731,27 +1524,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/37d98076-01d0-4af5-95b1-d236179d79bc__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/3faaac86-38e6-4c73-9e17-89be3046cd54__ (1).jpeg",
-      "AssetFile": "uploads/3faaac86-38e6-4c73-9e17-89be3046cd54__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/3faaac86-38e6-4c73-9e17-89be3046cd54__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -768,6 +1557,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -779,16 +1572,12 @@
     },
     {
       "Route": "uploads/3faaac86-38e6-4c73-9e17-89be3046cd54__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/3faaac86-38e6-4c73-9e17-89be3046cd54__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/3faaac86-38e6-4c73-9e17-89be3046cd54__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -805,6 +1594,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -813,27 +1606,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/3faaac86-38e6-4c73-9e17-89be3046cd54__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/4a60b459-0444-44fe-a121-3c48c095187f__.jpeg",
-      "AssetFile": "uploads/4a60b459-0444-44fe-a121-3c48c095187f__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/4a60b459-0444-44fe-a121-3c48c095187f__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -850,6 +1639,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -861,16 +1654,12 @@
     },
     {
       "Route": "uploads/4a60b459-0444-44fe-a121-3c48c095187f__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/4a60b459-0444-44fe-a121-3c48c095187f__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/4a60b459-0444-44fe-a121-3c48c095187f__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -887,6 +1676,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -895,27 +1688,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/4a60b459-0444-44fe-a121-3c48c095187f__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/57f5040e-b137-4b36-9bc3-a7819179e034_gratisography-cool-cat-800x525.hrgw49jb97.jpg",
-      "AssetFile": "uploads/57f5040e-b137-4b36-9bc3-a7819179e034_gratisography-cool-cat-800x525.jpg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/57f5040e-b137-4b36-9bc3-a7819179e034_gratisography-cool-cat-800x525.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -932,6 +1721,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 17:35:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -940,27 +1733,23 @@
           "Value": "hrgw49jb97"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-I6tiLkFXNiXGBF+1iiHvdtpTj9Md1bkWkiUCoOpWJf0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/57f5040e-b137-4b36-9bc3-a7819179e034_gratisography-cool-cat-800x525.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6tiLkFXNiXGBF+1iiHvdtpTj9Md1bkWkiUCoOpWJf0="
         }
       ]
     },
     {
       "Route": "uploads/57f5040e-b137-4b36-9bc3-a7819179e034_gratisography-cool-cat-800x525.jpg",
-      "AssetFile": "uploads/57f5040e-b137-4b36-9bc3-a7819179e034_gratisography-cool-cat-800x525.jpg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/57f5040e-b137-4b36-9bc3-a7819179e034_gratisography-cool-cat-800x525.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -977,6 +1766,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 17:35:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -988,16 +1781,12 @@
     },
     {
       "Route": "uploads/5eedcefe-0e2a-4820-9714-2ac5b1c73d87__.jpeg",
-      "AssetFile": "uploads/5eedcefe-0e2a-4820-9714-2ac5b1c73d87__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/5eedcefe-0e2a-4820-9714-2ac5b1c73d87__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1014,6 +1803,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1025,16 +1818,12 @@
     },
     {
       "Route": "uploads/5eedcefe-0e2a-4820-9714-2ac5b1c73d87__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/5eedcefe-0e2a-4820-9714-2ac5b1c73d87__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/5eedcefe-0e2a-4820-9714-2ac5b1c73d87__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1051,6 +1840,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1059,27 +1852,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/5eedcefe-0e2a-4820-9714-2ac5b1c73d87__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/60d75a00-898f-48df-9fd5-f4825918e18f__ (1).jpeg",
-      "AssetFile": "uploads/60d75a00-898f-48df-9fd5-f4825918e18f__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/60d75a00-898f-48df-9fd5-f4825918e18f__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1096,6 +1885,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1107,16 +1900,12 @@
     },
     {
       "Route": "uploads/60d75a00-898f-48df-9fd5-f4825918e18f__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/60d75a00-898f-48df-9fd5-f4825918e18f__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/60d75a00-898f-48df-9fd5-f4825918e18f__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1133,6 +1922,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1141,27 +1934,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/60d75a00-898f-48df-9fd5-f4825918e18f__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/62e63936-d89d-4e47-9c31-9ca2a4e1f202__.jpeg",
-      "AssetFile": "uploads/62e63936-d89d-4e47-9c31-9ca2a4e1f202__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/62e63936-d89d-4e47-9c31-9ca2a4e1f202__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1178,6 +1967,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1189,16 +1982,12 @@
     },
     {
       "Route": "uploads/62e63936-d89d-4e47-9c31-9ca2a4e1f202__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/62e63936-d89d-4e47-9c31-9ca2a4e1f202__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/62e63936-d89d-4e47-9c31-9ca2a4e1f202__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1215,6 +2004,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1223,27 +2016,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/62e63936-d89d-4e47-9c31-9ca2a4e1f202__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/64b70327-5b6f-4611-a7ba-f751933d1216__.jpeg",
-      "AssetFile": "uploads/64b70327-5b6f-4611-a7ba-f751933d1216__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/64b70327-5b6f-4611-a7ba-f751933d1216__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1260,6 +2049,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1271,16 +2064,12 @@
     },
     {
       "Route": "uploads/64b70327-5b6f-4611-a7ba-f751933d1216__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/64b70327-5b6f-4611-a7ba-f751933d1216__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/64b70327-5b6f-4611-a7ba-f751933d1216__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1297,6 +2086,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1305,27 +2098,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/64b70327-5b6f-4611-a7ba-f751933d1216__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/70a8fad2-7089-4343-b074-c8aca8f3f278__ (1).jpeg",
-      "AssetFile": "uploads/70a8fad2-7089-4343-b074-c8aca8f3f278__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/70a8fad2-7089-4343-b074-c8aca8f3f278__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1342,6 +2131,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1353,16 +2146,12 @@
     },
     {
       "Route": "uploads/70a8fad2-7089-4343-b074-c8aca8f3f278__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/70a8fad2-7089-4343-b074-c8aca8f3f278__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/70a8fad2-7089-4343-b074-c8aca8f3f278__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1379,6 +2168,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1387,27 +2180,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/70a8fad2-7089-4343-b074-c8aca8f3f278__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/72252b14-672c-41c5-be03-4166ff613fab__.jpeg",
-      "AssetFile": "uploads/72252b14-672c-41c5-be03-4166ff613fab__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/72252b14-672c-41c5-be03-4166ff613fab__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1424,6 +2213,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1435,16 +2228,12 @@
     },
     {
       "Route": "uploads/72252b14-672c-41c5-be03-4166ff613fab__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/72252b14-672c-41c5-be03-4166ff613fab__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/72252b14-672c-41c5-be03-4166ff613fab__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1461,6 +2250,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1469,27 +2262,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/72252b14-672c-41c5-be03-4166ff613fab__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/7264aee3-ca73-4258-ae72-ee7ddf2e4672__ (1).jpeg",
-      "AssetFile": "uploads/7264aee3-ca73-4258-ae72-ee7ddf2e4672__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/7264aee3-ca73-4258-ae72-ee7ddf2e4672__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1506,6 +2295,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1517,16 +2310,12 @@
     },
     {
       "Route": "uploads/7264aee3-ca73-4258-ae72-ee7ddf2e4672__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/7264aee3-ca73-4258-ae72-ee7ddf2e4672__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/7264aee3-ca73-4258-ae72-ee7ddf2e4672__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1543,6 +2332,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1551,27 +2344,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/7264aee3-ca73-4258-ae72-ee7ddf2e4672__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/730ebf7e-bd23-49a0-a8c5-4af5ff6af13e_MainAfter.iqhwb5y2sv.jpg",
-      "AssetFile": "uploads/730ebf7e-bd23-49a0-a8c5-4af5ff6af13e_MainAfter.jpg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/730ebf7e-bd23-49a0-a8c5-4af5ff6af13e_MainAfter.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1588,6 +2377,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 12:49:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1596,27 +2389,23 @@
           "Value": "iqhwb5y2sv"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-yuBqAQ6xibVxsXcbt7gJOvlhsnYHBOgW5mWVUNdMvKY="
-        },
-        {
           "Name": "label",
           "Value": "uploads/730ebf7e-bd23-49a0-a8c5-4af5ff6af13e_MainAfter.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yuBqAQ6xibVxsXcbt7gJOvlhsnYHBOgW5mWVUNdMvKY="
         }
       ]
     },
     {
       "Route": "uploads/730ebf7e-bd23-49a0-a8c5-4af5ff6af13e_MainAfter.jpg",
-      "AssetFile": "uploads/730ebf7e-bd23-49a0-a8c5-4af5ff6af13e_MainAfter.jpg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/730ebf7e-bd23-49a0-a8c5-4af5ff6af13e_MainAfter.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1633,6 +2422,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 12:49:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1644,16 +2437,12 @@
     },
     {
       "Route": "uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1).jpeg",
-      "AssetFile": "uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1670,6 +2459,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1681,16 +2474,12 @@
     },
     {
       "Route": "uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1707,6 +2496,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1715,27 +2508,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.8472hq1von.png",
-      "AssetFile": "uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1752,6 +2541,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 17:36:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1760,27 +2553,23 @@
           "Value": "8472hq1von"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-eEZ5/1tWMAnVP15mSHK8INIt+qWCPVQ4Sgeme0GPvdw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eEZ5/1tWMAnVP15mSHK8INIt+qWCPVQ4Sgeme0GPvdw="
         }
       ]
     },
     {
       "Route": "uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png",
-      "AssetFile": "uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1797,6 +2586,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 17:36:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1808,16 +2601,12 @@
     },
     {
       "Route": "uploads/7c38b0e4-3d50-4e5b-a6b7-8c355907fc39__ (1).jpeg",
-      "AssetFile": "uploads/7c38b0e4-3d50-4e5b-a6b7-8c355907fc39__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/7c38b0e4-3d50-4e5b-a6b7-8c355907fc39__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1834,6 +2623,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1845,16 +2638,12 @@
     },
     {
       "Route": "uploads/7c38b0e4-3d50-4e5b-a6b7-8c355907fc39__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/7c38b0e4-3d50-4e5b-a6b7-8c355907fc39__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/7c38b0e4-3d50-4e5b-a6b7-8c355907fc39__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1871,6 +2660,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1879,27 +2672,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/7c38b0e4-3d50-4e5b-a6b7-8c355907fc39__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/88402f2b-a92d-4eee-8d02-c55329e9aa96__.jpeg",
-      "AssetFile": "uploads/88402f2b-a92d-4eee-8d02-c55329e9aa96__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/88402f2b-a92d-4eee-8d02-c55329e9aa96__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1916,6 +2705,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -1927,16 +2720,12 @@
     },
     {
       "Route": "uploads/88402f2b-a92d-4eee-8d02-c55329e9aa96__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/88402f2b-a92d-4eee-8d02-c55329e9aa96__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/88402f2b-a92d-4eee-8d02-c55329e9aa96__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -1953,6 +2742,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -1961,27 +2754,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/88402f2b-a92d-4eee-8d02-c55329e9aa96__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/95229c0b-a91f-40dd-8441-27b1fef147de__ (1).jpeg",
-      "AssetFile": "uploads/95229c0b-a91f-40dd-8441-27b1fef147de__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/95229c0b-a91f-40dd-8441-27b1fef147de__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -1998,6 +2787,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2009,16 +2802,12 @@
     },
     {
       "Route": "uploads/95229c0b-a91f-40dd-8441-27b1fef147de__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/95229c0b-a91f-40dd-8441-27b1fef147de__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/95229c0b-a91f-40dd-8441-27b1fef147de__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2035,6 +2824,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2043,27 +2836,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/95229c0b-a91f-40dd-8441-27b1fef147de__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/97d2080c-887a-460a-87be-980cc3afbcdb__.jpeg",
-      "AssetFile": "uploads/97d2080c-887a-460a-87be-980cc3afbcdb__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/97d2080c-887a-460a-87be-980cc3afbcdb__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2080,6 +2869,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2091,16 +2884,12 @@
     },
     {
       "Route": "uploads/97d2080c-887a-460a-87be-980cc3afbcdb__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/97d2080c-887a-460a-87be-980cc3afbcdb__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/97d2080c-887a-460a-87be-980cc3afbcdb__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2117,6 +2906,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2125,27 +2918,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/97d2080c-887a-460a-87be-980cc3afbcdb__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).jpeg",
-      "AssetFile": "uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2162,6 +2951,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2173,16 +2966,12 @@
     },
     {
       "Route": "uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2199,6 +2988,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2207,27 +3000,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/aa3242f0-219f-487c-8b66-668896959f75__.jpeg",
-      "AssetFile": "uploads/aa3242f0-219f-487c-8b66-668896959f75__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/aa3242f0-219f-487c-8b66-668896959f75__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2244,6 +3033,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2255,16 +3048,12 @@
     },
     {
       "Route": "uploads/aa3242f0-219f-487c-8b66-668896959f75__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/aa3242f0-219f-487c-8b66-668896959f75__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/aa3242f0-219f-487c-8b66-668896959f75__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2281,6 +3070,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2289,27 +3082,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/aa3242f0-219f-487c-8b66-668896959f75__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/accca67f-e55d-4d0d-b295-69ab61187715__.jpeg",
-      "AssetFile": "uploads/accca67f-e55d-4d0d-b295-69ab61187715__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/accca67f-e55d-4d0d-b295-69ab61187715__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2326,6 +3115,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2337,16 +3130,12 @@
     },
     {
       "Route": "uploads/accca67f-e55d-4d0d-b295-69ab61187715__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/accca67f-e55d-4d0d-b295-69ab61187715__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/accca67f-e55d-4d0d-b295-69ab61187715__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2363,6 +3152,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2371,27 +3164,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/accca67f-e55d-4d0d-b295-69ab61187715__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/aedf7444-cd00-4e5f-82de-e983294acd7c__.jpeg",
-      "AssetFile": "uploads/aedf7444-cd00-4e5f-82de-e983294acd7c__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/aedf7444-cd00-4e5f-82de-e983294acd7c__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2408,6 +3197,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2419,16 +3212,12 @@
     },
     {
       "Route": "uploads/aedf7444-cd00-4e5f-82de-e983294acd7c__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/aedf7444-cd00-4e5f-82de-e983294acd7c__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/aedf7444-cd00-4e5f-82de-e983294acd7c__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2445,6 +3234,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2453,27 +3246,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/aedf7444-cd00-4e5f-82de-e983294acd7c__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/b908c28b-a560-4bef-8422-cb0a3ecc01cb__.jpeg",
-      "AssetFile": "uploads/b908c28b-a560-4bef-8422-cb0a3ecc01cb__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/b908c28b-a560-4bef-8422-cb0a3ecc01cb__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2490,6 +3279,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2501,16 +3294,12 @@
     },
     {
       "Route": "uploads/b908c28b-a560-4bef-8422-cb0a3ecc01cb__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/b908c28b-a560-4bef-8422-cb0a3ecc01cb__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/b908c28b-a560-4bef-8422-cb0a3ecc01cb__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2527,6 +3316,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2535,27 +3328,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/b908c28b-a560-4bef-8422-cb0a3ecc01cb__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/bf927f47-10e9-466f-9ce9-84677cabcc97__.jpeg",
-      "AssetFile": "uploads/bf927f47-10e9-466f-9ce9-84677cabcc97__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/bf927f47-10e9-466f-9ce9-84677cabcc97__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2572,6 +3361,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2583,16 +3376,12 @@
     },
     {
       "Route": "uploads/bf927f47-10e9-466f-9ce9-84677cabcc97__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/bf927f47-10e9-466f-9ce9-84677cabcc97__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/bf927f47-10e9-466f-9ce9-84677cabcc97__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2609,6 +3398,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2617,27 +3410,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/bf927f47-10e9-466f-9ce9-84677cabcc97__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/c249713e-f9d7-47f2-a262-8e45f14baaa7__.jpeg",
-      "AssetFile": "uploads/c249713e-f9d7-47f2-a262-8e45f14baaa7__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/c249713e-f9d7-47f2-a262-8e45f14baaa7__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2654,6 +3443,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2665,16 +3458,12 @@
     },
     {
       "Route": "uploads/c249713e-f9d7-47f2-a262-8e45f14baaa7__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/c249713e-f9d7-47f2-a262-8e45f14baaa7__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/c249713e-f9d7-47f2-a262-8e45f14baaa7__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2691,6 +3480,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2699,27 +3492,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/c249713e-f9d7-47f2-a262-8e45f14baaa7__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/d91cd596-3277-45f2-b682-3c01f03b4855__.jpeg",
-      "AssetFile": "uploads/d91cd596-3277-45f2-b682-3c01f03b4855__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/d91cd596-3277-45f2-b682-3c01f03b4855__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2736,6 +3525,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2747,16 +3540,12 @@
     },
     {
       "Route": "uploads/d91cd596-3277-45f2-b682-3c01f03b4855__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/d91cd596-3277-45f2-b682-3c01f03b4855__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/d91cd596-3277-45f2-b682-3c01f03b4855__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2773,6 +3562,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2781,27 +3574,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/d91cd596-3277-45f2-b682-3c01f03b4855__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/da93bc47-16a2-4708-83c7-28a40fc4a231__.jpeg",
-      "AssetFile": "uploads/da93bc47-16a2-4708-83c7-28a40fc4a231__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/da93bc47-16a2-4708-83c7-28a40fc4a231__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2818,6 +3607,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2829,16 +3622,12 @@
     },
     {
       "Route": "uploads/da93bc47-16a2-4708-83c7-28a40fc4a231__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/da93bc47-16a2-4708-83c7-28a40fc4a231__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/da93bc47-16a2-4708-83c7-28a40fc4a231__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2855,6 +3644,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2863,27 +3656,23 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/da93bc47-16a2-4708-83c7-28a40fc4a231__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
     {
       "Route": "uploads/dcdb1e91-2cd9-4638-9f0c-4532b86626bd__ (1).jpeg",
-      "AssetFile": "uploads/dcdb1e91-2cd9-4638-9f0c-4532b86626bd__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/dcdb1e91-2cd9-4638-9f0c-4532b86626bd__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2900,6 +3689,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2911,16 +3704,12 @@
     },
     {
       "Route": "uploads/dcdb1e91-2cd9-4638-9f0c-4532b86626bd__ (1).u3fgy83k4l.jpeg",
-      "AssetFile": "uploads/dcdb1e91-2cd9-4638-9f0c-4532b86626bd__ (1).jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/dcdb1e91-2cd9-4638-9f0c-4532b86626bd__ (1).jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2937,6 +3726,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -2945,27 +3738,23 @@
           "Value": "u3fgy83k4l"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
-        },
-        {
           "Name": "label",
           "Value": "uploads/dcdb1e91-2cd9-4638-9f0c-4532b86626bd__ (1).jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
         }
       ]
     },
     {
       "Route": "uploads/eb5445d0-d3fb-420b-acba-e18029ed8b9e__.jpeg",
-      "AssetFile": "uploads/eb5445d0-d3fb-420b-acba-e18029ed8b9e__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/eb5445d0-d3fb-420b-acba-e18029ed8b9e__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -2982,6 +3771,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -2993,16 +3786,12 @@
     },
     {
       "Route": "uploads/eb5445d0-d3fb-420b-acba-e18029ed8b9e__.mk27toslk2.jpeg",
-      "AssetFile": "uploads/eb5445d0-d3fb-420b-acba-e18029ed8b9e__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/eb5445d0-d3fb-420b-acba-e18029ed8b9e__.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -3019,6 +3808,10 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 11 Feb 2025 10:26:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -3027,12 +3820,12 @@
           "Value": "mk27toslk2"
         },
         {
-          "Name": "integrity",
-          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
-        },
-        {
           "Name": "label",
           "Value": "uploads/eb5445d0-d3fb-420b-acba-e18029ed8b9e__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     }

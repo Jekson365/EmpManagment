@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "ManifestType": "Build",
+  "ManifestType": "Publish",
   "Endpoints": [
     {
       "Route": "uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg",
