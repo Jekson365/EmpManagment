@@ -4698,7 +4698,7 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/jeko/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4706,11 +4706,11 @@
       "projectUniqueName": "/home/jeko/Desktop/css/try/MyApp/MyApp.csproj",
       "projectName": "MyApp",
       "projectPath": "/home/jeko/Desktop/css/try/MyApp/MyApp.csproj",
-      "packagesPath": "/root/.nuget/packages/",
+      "packagesPath": "/home/jeko/.nuget/packages/",
       "outputPath": "/home/jeko/Desktop/css/try/MyApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/jeko/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
