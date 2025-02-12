@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/jeko/Desktop/css/try/MyApp/MyApp.csproj",
         "projectName": "MyApp",
         "projectPath": "/home/jeko/Desktop/css/try/MyApp/MyApp.csproj",
-        "packagesPath": "/home/jeko/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/jeko/Desktop/css/try/MyApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jeko/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
 using MyApp.Dto.Tasks;
+using MyApp.Models;
 using MyApp.Models.Tasks;
 
 namespace MyApp.Controllers.Tasks
@@ -35,6 +36,25 @@ namespace MyApp.Controllers.Tasks
 
             return Ok(assign);
         }
+
+        [Authorize(Roles = "superadmin")]
+        [HttpDelete]
+        public async Task<IActionResult> DeleteAssignedTask([FromBody] AssignTaskDto assignTaskDto)
+        {
+            var assignedTask = await _context.AssignedTasks
+                .FirstOrDefaultAsync(e => e.TaskId == assignTaskDto.TaskId && e.UserId == assignTaskDto.UserId);
+
+            if (assignedTask == null)
+            {
+                return NotFound(new { message = "Task assignment not found.", StatusCode = 404 });
+            }
+
+            _context.AssignedTasks.Remove(assignedTask);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Task assignment deleted successfully.", assignedTask, StatusCode = 204 });
+        }
+
 
     }
 }
