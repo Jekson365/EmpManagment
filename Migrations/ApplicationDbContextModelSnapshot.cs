@@ -38,6 +38,51 @@ namespace MyApp.Migrations
                     b.ToTable("Roles");
                 });
 
+            modelBuilder.Entity("MyApp.Models.Tasks.AssignedTask", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("TaskId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.HasIndex("TaskId", "UserId")
+                        .IsUnique();
+
+                    b.ToTable("AssignedTasks");
+                });
+
+            modelBuilder.Entity("MyApp.Models.Tasks.Task", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tasks");
+                });
+
             modelBuilder.Entity("MyApp.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -81,6 +126,25 @@ namespace MyApp.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("MyApp.Models.Tasks.AssignedTask", b =>
+                {
+                    b.HasOne("MyApp.Models.Tasks.Task", "Task")
+                        .WithMany("AssignedTasks")
+                        .HasForeignKey("TaskId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("MyApp.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Task");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("MyApp.Models.User", b =>
                 {
                     b.HasOne("MyApp.Models.Role", "Role")
@@ -95,6 +159,11 @@ namespace MyApp.Migrations
             modelBuilder.Entity("MyApp.Models.Role", b =>
                 {
                     b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("MyApp.Models.Tasks.Task", b =>
+                {
+                    b.Navigation("AssignedTasks");
                 });
 #pragma warning restore 612, 618
         }
