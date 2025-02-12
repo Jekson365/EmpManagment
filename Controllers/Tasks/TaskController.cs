@@ -46,9 +46,11 @@ namespace MyApp.Controllers.Tasks
                     t.Id,
                     t.Title,
                     t.Description,
+                    Status = t.TaskStatus.Name,
+                    StatusId = t.TaskStatus.Id,
                     AssignedUsers = _context.AssignedTasks
                         .Where(at => at.TaskId == t.Id)
-                        .Join(_context.Users, at => at.UserId, u => u.Id, (at, u) => new { u.Id, u.Name,u.Surname,u.IconPath })
+                        .Join(_context.Users, at => at.UserId, u => u.Id, (at, u) => new { u.Id, u.Name, u.Surname, u.IconPath })
                         .ToList()
                 }).ToListAsync();
             return Ok(result);

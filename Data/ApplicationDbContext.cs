@@ -24,6 +24,10 @@ namespace MyApp.Data
                 .HasOne(u => u.Role)
                 .WithMany(r => r.Users)
                 .HasForeignKey(u => u.RoleId);
+            modelBuilder.Entity<Models.Tasks.Task>()
+                .HasOne(t => t.TaskStatus)
+                .WithMany(ts => ts.Tasks)
+                .HasForeignKey(t => t.TaskStatusId);
             modelBuilder.Entity<AssignedTask>()
                 .HasIndex(at => new { at.TaskId, at.UserId })
                 .IsUnique();
@@ -32,5 +36,6 @@ namespace MyApp.Data
         public DbSet<Role> Roles { get; set; }
         public DbSet<AssignedTask> AssignedTasks { get; set; }
         public DbSet<Models.Tasks.Task> Tasks { get; set; }
+        public DbSet<Models.Statuses.TaskStatus> TaskStatuses { get; set; }
     }
 }
