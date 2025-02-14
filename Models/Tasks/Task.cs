@@ -8,7 +8,7 @@ namespace MyApp.Models.Tasks
 {
     public class Task
     {
-        public int Id { get; set; }
+    public int Id { get; set; }
         public string Title { get; set; } = String.Empty;
         public string Description { get; set; } = String.Empty;
         public ICollection<AssignedTask> AssignedTasks { get; set; } = new List<AssignedTask>();
