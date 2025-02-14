@@ -31,7 +31,7 @@ namespace MyApp.Controllers
             _userRepo = userRepo;
             _validator = validator;
         }
-
+        
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] CreateUserDto userModel)
         {

@@ -54,7 +54,7 @@ namespace MyApp.Controllers.Tasks
                         .ToList()
                 }).ToListAsync();
             return Ok(result);
-    }
+        }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByID([FromRoute] int id)
@@ -82,5 +82,22 @@ namespace MyApp.Controllers.Tasks
 
             return Ok(result);
         }
+        [HttpPut("update_task_status")]
+        public async Task<IActionResult> UpdateTaskStatus([FromBody] Dto.Tasks.UpdateTaskStatusDto updateTaskStatusDto)
+        {
+            var task = await _context.Tasks.FindAsync(updateTaskStatusDto.TaskId);
+            if (task == null)
+            {
+                return NotFound();
+            }
+
+            task.TaskStatusId = updateTaskStatusDto.StatusId;
+            await _context.SaveChangesAsync();
+
+            return Ok(task);
+        }
+
     }
+
+
 }
