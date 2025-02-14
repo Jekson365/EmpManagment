@@ -5,7 +5,7 @@
 namespace MyApp.Migrations
 {
     /// <inheritdoc />
-    public partial class add_foreign_key_to_tasks : Migration
+    public partial class add_nullable_fix : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,7 +19,7 @@ namespace MyApp.Migrations
                 table: "Tasks",
                 type: "integer",
                 nullable: false,
-                defaultValue: 1,
+                defaultValue: 0,
                 oldClrType: typeof(int),
                 oldType: "integer",
                 oldNullable: true);
