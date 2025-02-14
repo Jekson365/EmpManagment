@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QB4IgsrDJTE=",
+  "dgSpecHash": "YUV6iyApCjg=",
   "success": true,
-  "projectFilePath": "/home/jeko/Desktop/css/try/MyApp/MyApp.csproj",
+  "projectFilePath": "/home/emp_back/EmpManagment/MyApp.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
     "/root/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",

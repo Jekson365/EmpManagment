@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jeko/Desktop/css/try/MyApp/MyApp.csproj": {}
+    "/home/emp_back/EmpManagment/MyApp.csproj": {}
   },
   "projects": {
-    "/home/jeko/Desktop/css/try/MyApp/MyApp.csproj": {
+    "/home/emp_back/EmpManagment/MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jeko/Desktop/css/try/MyApp/MyApp.csproj",
+        "projectUniqueName": "/home/emp_back/EmpManagment/MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "/home/jeko/Desktop/css/try/MyApp/MyApp.csproj",
+        "projectPath": "/home/emp_back/EmpManagment/MyApp.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/jeko/Desktop/css/try/MyApp/obj/",
+        "outputPath": "/home/emp_back/EmpManagment/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -102,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
