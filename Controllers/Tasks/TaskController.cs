@@ -54,24 +54,32 @@ namespace MyApp.Controllers.Tasks
                         .ToList()
                 }).ToListAsync();
             return Ok(result);
-        }
+    }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByID([FromRoute] int id)
         {
             var result = await _context.Tasks
-               .Select(t => new
-               {
-                   t.Id,
-                   t.Title,
-                   t.Description,
-                   Status = t.TaskStatus.Name,
-                   StatusId = t.TaskStatus.Id,
-                   AssignedUsers = _context.AssignedTasks
-                       .Where(at => at.TaskId == t.Id)
-                       .Join(_context.Users, at => at.UserId, u => u.Id, (at, u) => new { u.Id, u.Name, u.Surname, u.IconPath })
-                       .ToList()
-               }).FirstOrDefaultAsync();
+        .Where(t => t.Id == id)
+        .Select(t => new
+        {
+            t.Id,
+            t.Title,
+            t.Description,
+            Status = t.TaskStatus.Name,
+            StatusId = t.TaskStatus.Id,
+            AssignedUsers = _context.AssignedTasks
+                .Where(at => at.TaskId == t.Id)
+                .Join(_context.Users, at => at.UserId, u => u.Id, (at, u) => new { u.Id, u.Name, u.Surname, u.IconPath })
+                .ToList()
+        })
+        .FirstOrDefaultAsync();
+
+            if (result == null)
+            {
+                return NotFound();
+            }
+
             return Ok(result);
         }
     }

@@ -262,3 +262,7 @@
 /home/emp_back/EmpManagment/obj/Debug/net9.0/MyApp.pdb
 /home/emp_back/EmpManagment/obj/Debug/net9.0/MyApp.genruntimeconfig.cache
 /home/emp_back/EmpManagment/obj/Debug/net9.0/ref/MyApp.dll
+/home/jeko/Desktop/css/try/MyApp/bin/Debug/net9.0/DotEnv.dll
+/home/jeko/Desktop/css/try/MyApp/bin/Debug/net9.0/DotNetEnv.dll
+/home/jeko/Desktop/css/try/MyApp/bin/Debug/net9.0/Sprache.dll
+/home/jeko/Desktop/css/try/MyApp/bin/Debug/net9.0/System.IO.Abstractions.dll

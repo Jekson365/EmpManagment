@@ -1,5 +1,6 @@
 using System.Net;
 using System.Text.Json.Serialization;
+using DotNetEnv;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
@@ -9,12 +10,12 @@ using MyApp.Interfaces;
 using MyApp.Repositories;
 
 
+Env.Load();
 var builder = WebApplication.CreateBuilder(args);
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
-        policy => policy.WithOrigins("https://foo.jergemlidze.com.ge")
+        policy => policy.WithOrigins(Environment.GetEnvironmentVariable("FRONT_END"))
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials());
