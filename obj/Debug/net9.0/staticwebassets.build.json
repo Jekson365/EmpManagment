@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M7z0IDBd1bpJteCx1dS38wWhYsVVJeWlVhOTdZbskFE=",
+  "Hash": "q25d9vG2MUiRjzXal555nTBJfqg2ZbNAQm6tliK1qro=",
   "Source": "MyApp",
   "BasePath": "_content/MyApp",
   "Mode": "Default",
@@ -498,6 +498,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/769636be-6a00-4031-afd2-0ac29378d6fd__ (1).jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/7762352b-fc88-4251-bc46-6609a69d21fd__.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/7762352b-fc88-4251-bc46-6609a69d21fd__#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk27toslk2",
+      "Integrity": "Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/7762352b-fc88-4251-bc46-6609a69d21fd__.jpeg"
     },
     {
       "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/796a2fbc-37b0-41bd-9ceb-6a9d1148722f_vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-red-garden_19527038.png",
@@ -2741,6 +2762,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-hp0FBUulsRnXSidTABevVg+cYOChqt76XdelCa/+ZN0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7762352b-fc88-4251-bc46-6609a69d21fd__.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/7762352b-fc88-4251-bc46-6609a69d21fd__.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "147208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 06:40:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7762352b-fc88-4251-bc46-6609a69d21fd__.mk27toslk2.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/7762352b-fc88-4251-bc46-6609a69d21fd__.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "147208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 06:40:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mk27toslk2"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7762352b-fc88-4251-bc46-6609a69d21fd__.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
         }
       ]
     },
