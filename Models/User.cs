@@ -19,5 +19,6 @@ namespace MyApp.Models
         public Role Role { get; set; }
         public string Password { get; set; } = String.Empty;
         public ICollection<AssignedTask> assignedTasks = new List<AssignedTask>();
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }

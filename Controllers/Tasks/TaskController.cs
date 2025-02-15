@@ -28,7 +28,8 @@ namespace MyApp.Controllers.Tasks
             var newTask = new Models.Tasks.Task
             {
                 Title = newTaskDto.Title,
-                Description = newTaskDto.Description
+                Description = newTaskDto.Description,
+                EndDate = newTaskDto.EndDate.ToUniversalTime()
             };
 
             await _context.Tasks.AddAsync(newTask);
@@ -44,6 +45,8 @@ namespace MyApp.Controllers.Tasks
                     t.Id,
                     t.Title,
                     t.Description,
+                    t.CreatedAt,
+                    t.EndDate,
                     Status = t.TaskStatus.Name,
                     StatusId = t.TaskStatus.Id,
                     AssignedUsers = _context.AssignedTasks
@@ -64,6 +67,8 @@ namespace MyApp.Controllers.Tasks
             t.Id,
             t.Title,
             t.Description,
+            t.EndDate,
+            t.CreatedAt,
             Status = t.TaskStatus.Name,
             StatusId = t.TaskStatus.Id,
             AssignedUsers = _context.AssignedTasks

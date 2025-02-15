@@ -9,5 +9,6 @@ namespace MyApp.Dto.Tasks
     {
         public string Title { get; set; } = String.Empty;
         public string Description { get; set; } = String.Empty;
+        public DateTime EndDate { get; set; }
     }
 }
