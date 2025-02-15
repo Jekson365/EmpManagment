@@ -36,8 +36,6 @@ namespace MyApp.Controllers.Tasks
 
             return Ok(newTask);
         }
-
-        [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             var result = await _context.Tasks
