@@ -37,6 +37,7 @@ namespace MyApp.Controllers.Tasks
 
             return Ok(newTask);
         }
+        [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             var result = await _context.Tasks
@@ -85,6 +86,7 @@ namespace MyApp.Controllers.Tasks
 
             return Ok(result);
         }
+
         [HttpPut("update_task_status")]
         public async Task<IActionResult> UpdateTaskStatus([FromBody] Dto.Tasks.UpdateTaskStatusDto updateTaskStatusDto)
         {
@@ -97,6 +99,47 @@ namespace MyApp.Controllers.Tasks
             task.TaskStatusId = updateTaskStatusDto.StatusId;
             await _context.SaveChangesAsync();
 
+            return Ok(task);
+        }
+
+        [HttpPost("get_tasks_by_status")]
+        public async Task<IActionResult> GetByStatusId([FromBody] GetByStatusDto StatusDto)
+        {
+            var query = _context.Tasks.Select(t => new
+            {
+                t.Id,
+                t.Title,
+                t.Description,
+                t.CreatedAt,
+                t.EndDate,
+                Status = t.TaskStatus.Name,
+                StatusId = t.TaskStatus.Id,
+                AssignedUsers = _context.AssignedTasks
+                    .Where(at => at.TaskId == t.Id)
+                    .Join(_context.Users, at => at.UserId, u => u.Id, (at, u) => new { u.Id, u.Name, u.Surname, u.IconPath })
+                    .ToList()
+            });
+
+            if (StatusDto?.StatusId != null)
+            {
+                query = query.Where(t => t.StatusId == StatusDto.StatusId);
+            }
+
+            var result = await query.ToListAsync();
+            return Ok(result);
+        }
+
+        [HttpPut("update_due_date")]
+        public async Task<IActionResult> UpdateDueDate([FromBody] UpdateDueDateDto UpdateDueDate)
+        {
+            var task = await _context.Tasks.FindAsync(UpdateDueDate.TaskId);
+            if (task == null)
+            {
+                return NotFound();
+            }
+
+            task.EndDate = UpdateDueDate.EndDate.ToUniversalTime();
+            await _context.SaveChangesAsync();
             return Ok(task);
         }
 

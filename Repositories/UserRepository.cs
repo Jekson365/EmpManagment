@@ -48,7 +48,7 @@ namespace MyApp.Repositories
                 {
                     Name = userDto.Name,
                     Surname = userDto.Surname,
-                    Email = userDto.Email,
+                Email = userDto.Email,
                     IconPath = uniqueFileName,
                     Age = userDto.Age,
                     RoleId = role.Id,
