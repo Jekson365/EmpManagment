@@ -1,8 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
+using MyApp.Dto.Comments;
 using MyApp.Dto.TaskItems;
 using MyApp.Dto.Tasks;
+using MyApp.Dto.User;
 using MyApp.Interfaces;
+using MyApp.Models;
 
 namespace MyApp.Repositories
 {
@@ -42,6 +45,20 @@ namespace MyApp.Repositories
                    EndDate = t.EndDate,
                    Status = t.TaskStatus.Name,
                    StatusId = t.TaskStatus.Id,
+                   Comments = _context.Comments
+                    .Where(c => c.TaskId == t.Id)
+                    .Select(c => new UserCommentDto
+                    {
+                        Content = c.Content,
+                        Id = c.Id,
+                        User = _context.Users.Where(u => u.Id == c.UserId).Select(u => new CommentUserDto
+                        {
+                            Name = u.Name,
+                            Surname = u.Surname,
+                            IconPath = u.IconPath,
+                        }).FirstOrDefault()
+                    })
+                    .ToList(),
                    AssignedUsers = _context.AssignedTasks
                        .Where(at => at.TaskId == t.Id)
                        .Join(_context.Users, at => at.UserId, u => u.Id, (at, u) => new TaskUserDto

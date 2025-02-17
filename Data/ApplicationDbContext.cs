@@ -4,6 +4,7 @@ using System.Diagnostics.Metrics;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Models;
+using MyApp.Models.Comments;
 using MyApp.Models.Tasks;
 
 namespace MyApp.Data
@@ -37,5 +38,6 @@ namespace MyApp.Data
         public DbSet<AssignedTask> AssignedTasks { get; set; }
         public DbSet<Models.Tasks.Task> Tasks { get; set; }
         public DbSet<Models.Statuses.TaskStatus> TaskStatuses { get; set; }
+        public DbSet<Comment> Comments { get; set; }
     }
 }
