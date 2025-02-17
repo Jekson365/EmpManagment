@@ -18,11 +18,9 @@ namespace MyApp.Controllers.Tasks
     [Route("api/task")]
     public class TaskController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
         private readonly ITaskRepository _taskRepo;
-        public TaskController(ApplicationDbContext context, ITaskRepository taskRepo)
+        public TaskController(ITaskRepository taskRepo)
         {
-            _context = context;
             _taskRepo = taskRepo;
         }
         [Authorize(Roles = "superadmin")]
@@ -38,7 +36,12 @@ namespace MyApp.Controllers.Tasks
             var result = await _taskRepo.GetAll();
             return Ok(result);
         }
+        [HttpGet("get_task_by_user/{UserId}")]
+        public async Task<IActionResult> GetByUserId([FromRoute] int UserId) {
+            var result = await _taskRepo.GetByUserId(UserId);
 
+            return Ok(result);   
+        }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByID([FromRoute] int id)
         {
@@ -86,7 +89,6 @@ namespace MyApp.Controllers.Tasks
 
             return Ok(result);
         }
-
     }
 
 

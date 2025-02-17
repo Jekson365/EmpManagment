@@ -18,5 +18,6 @@ namespace MyApp.Interfaces
         Task<Models.Tasks.Task> UpdateTaskStatus(UpdateTaskStatusDto updateTaskStatusDto);
         Task<List<TaskItemDto>?> GetByStatusId(GetByStatusDto statusDto);
         Task<Models.Tasks.Task> UpdateDueDate(UpdateDueDateDto updateDueDateDto);
+        Task<List<TaskItemDto>> GetByUserId(int UserId);
     }
 }

@@ -1,17 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query.Internal;
 using MyApp.Data;
-using MyApp.Dto.AssignedTask;
-using MyApp.Dto.Statuses;
 using MyApp.Dto.TaskItems;
 using MyApp.Dto.Tasks;
 using MyApp.Interfaces;
-using MyApp.Models;
-using MyApp.Models.Tasks;
 
 namespace MyApp.Repositories
 {
@@ -38,7 +29,6 @@ namespace MyApp.Repositories
 
             return newTask;
         }
-
         public async Task<TaskItemDto?> GetById(int id)
         {
             var result = await _context.Tasks
@@ -103,6 +93,36 @@ namespace MyApp.Repositories
             }
 
             var result = await query.ToListAsync();
+            return result;
+        }
+
+        public async Task<List<TaskItemDto>> GetByUserId(int UserId)
+        {
+            var result = await _context.Tasks
+            .Where(t => _context.AssignedTasks.Any(at => at.TaskId == t.Id && at.UserId == UserId))
+            .Select(t => new
+          TaskItemDto
+            {
+                Id = t.Id,
+                Title = t.Title,
+                Description = t.Description,
+                CreatedAt = t.CreatedAt,
+                EndDate = t.EndDate,
+                Status = t.TaskStatus.Name,
+                StatusId = t.TaskStatus.Id,
+                AssignedUsers = _context.AssignedTasks
+                   .Where(at => at.TaskId == t.Id)
+                  .Join(_context.Users, at => at.UserId, u => u.Id, (at, u) => new TaskUserDto
+                  {
+                      Id = u.Id,
+                      Name = u.Name,
+                      Surname = u.Surname,
+                      IconPath = u.IconPath
+                  }
+                  )
+                  .ToList()
+            }).ToListAsync();
+
             return result;
         }
 
