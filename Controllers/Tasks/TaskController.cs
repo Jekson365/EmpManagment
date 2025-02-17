@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
+using MyApp.Dto.TaskItems;
 using MyApp.Dto.Tasks;
+using MyApp.Interfaces;
 using MyApp.Models.Tasks;
 
 namespace MyApp.Controllers.Tasks
@@ -17,68 +19,30 @@ namespace MyApp.Controllers.Tasks
     public class TaskController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
-        public TaskController(ApplicationDbContext context)
+        private readonly ITaskRepository _taskRepo;
+        public TaskController(ApplicationDbContext context, ITaskRepository taskRepo)
         {
             _context = context;
+            _taskRepo = taskRepo;
         }
         [Authorize(Roles = "superadmin")]
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] NewTaskDto newTaskDto)
         {
-            var newTask = new Models.Tasks.Task
-            {
-                Title = newTaskDto.Title,
-                Description = newTaskDto.Description,
-                EndDate = newTaskDto.EndDate.ToUniversalTime()
-            };
-
-            await _context.Tasks.AddAsync(newTask);
-            await _context.SaveChangesAsync();
-
-            return Ok(newTask);
+            var result = await _taskRepo.Create(newTaskDto);
+            return Ok(result);
         }
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var result = await _context.Tasks
-                .Select(t => new
-                {
-                    t.Id,
-                    t.Title,
-                    t.Description,
-                    t.CreatedAt,
-                    t.EndDate,
-                    Status = t.TaskStatus.Name,
-                    StatusId = t.TaskStatus.Id,
-                    AssignedUsers = _context.AssignedTasks
-                        .Where(at => at.TaskId == t.Id)
-                        .Join(_context.Users, at => at.UserId, u => u.Id, (at, u) => new { u.Id, u.Name, u.Surname, u.IconPath })
-                        .ToList()
-                }).ToListAsync();
+            var result = await _taskRepo.GetAll();
             return Ok(result);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByID([FromRoute] int id)
         {
-            var result = await _context.Tasks
-        .Where(t => t.Id == id)
-        .Select(t => new
-        {
-            t.Id,
-            t.Title,
-            t.Description,
-            t.EndDate,
-            t.CreatedAt,
-            Status = t.TaskStatus.Name,
-            StatusId = t.TaskStatus.Id,
-            AssignedUsers = _context.AssignedTasks
-                .Where(at => at.TaskId == t.Id)
-                .Join(_context.Users, at => at.UserId, u => u.Id, (at, u) => new { u.Id, u.Name, u.Surname, u.IconPath })
-                .ToList()
-        })
-        .FirstOrDefaultAsync();
-
+            var result = await _taskRepo.GetById(id);
             if (result == null)
             {
                 return NotFound();
@@ -90,57 +54,37 @@ namespace MyApp.Controllers.Tasks
         [HttpPut("update_task_status")]
         public async Task<IActionResult> UpdateTaskStatus([FromBody] Dto.Tasks.UpdateTaskStatusDto updateTaskStatusDto)
         {
-            var task = await _context.Tasks.FindAsync(updateTaskStatusDto.TaskId);
-            if (task == null)
+            var result = await _taskRepo.UpdateTaskStatus(updateTaskStatusDto);
+
+            if (result == null)
             {
                 return NotFound();
             }
 
-            task.TaskStatusId = updateTaskStatusDto.StatusId;
-            await _context.SaveChangesAsync();
-
-            return Ok(task);
+            return Ok(result);
         }
 
         [HttpPost("get_tasks_by_status")]
         public async Task<IActionResult> GetByStatusId([FromBody] GetByStatusDto StatusDto)
         {
-            var query = _context.Tasks.Select(t => new
+            var result = await _taskRepo.GetByStatusId(StatusDto);
+            if (result == null)
             {
-                t.Id,
-                t.Title,
-                t.Description,
-                t.CreatedAt,
-                t.EndDate,
-                Status = t.TaskStatus.Name,
-                StatusId = t.TaskStatus.Id,
-                AssignedUsers = _context.AssignedTasks
-                    .Where(at => at.TaskId == t.Id)
-                    .Join(_context.Users, at => at.UserId, u => u.Id, (at, u) => new { u.Id, u.Name, u.Surname, u.IconPath })
-                    .ToList()
-            });
-
-            if (StatusDto?.StatusId != null)
-            {
-                query = query.Where(t => t.StatusId == StatusDto.StatusId);
+                return NotFound();
             }
-
-            var result = await query.ToListAsync();
             return Ok(result);
         }
 
         [HttpPut("update_due_date")]
         public async Task<IActionResult> UpdateDueDate([FromBody] UpdateDueDateDto UpdateDueDate)
         {
-            var task = await _context.Tasks.FindAsync(UpdateDueDate.TaskId);
-            if (task == null)
+            var result = _taskRepo.UpdateDueDate(UpdateDueDate);
+            if (result == null)
             {
                 return NotFound();
             }
 
-            task.EndDate = UpdateDueDate.EndDate.ToUniversalTime();
-            await _context.SaveChangesAsync();
-            return Ok(task);
+            return Ok(result);
         }
 
     }
