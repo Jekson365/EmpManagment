@@ -11,5 +11,6 @@ namespace MyApp.Interfaces
     {
         Task<List<Comment>> GetAll();
         Task<Comment?> Create(NewCommentDto newCommentDto);
+        Task<List<UserCommentDto>> GetByTaskId(int taskId);
     }
 }

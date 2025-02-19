@@ -266,3 +266,5 @@
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net9.0/DotNetEnv.dll
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net9.0/Sprache.dll
 /home/jeko/Desktop/css/try/MyApp/bin/Debug/net9.0/System.IO.Abstractions.dll
+/home/jeko/Desktop/css/try/MyApp/bin/Debug/net9.0/package-lock.json
+/home/jeko/Desktop/css/try/MyApp/bin/Debug/net9.0/package.json

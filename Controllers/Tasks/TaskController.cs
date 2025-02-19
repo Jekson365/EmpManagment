@@ -81,7 +81,7 @@ namespace MyApp.Controllers.Tasks
         [HttpPut("update_due_date")]
         public async Task<IActionResult> UpdateDueDate([FromBody] UpdateDueDateDto UpdateDueDate)
         {
-            var result = _taskRepo.UpdateDueDate(UpdateDueDate);
+            var result = await _taskRepo.UpdateDueDate(UpdateDueDate);
             if (result == null)
             {
                 return NotFound();

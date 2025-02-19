@@ -5,7 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
 using MyApp.Dto.Comments;
+using MyApp.Dto.TaskItems;
+using MyApp.Dto.User;
 using MyApp.Interfaces;
+using MyApp.Mappers;
+using MyApp.Models;
 using MyApp.Models.Comments;
 
 namespace MyApp.Repositories
@@ -39,6 +43,27 @@ namespace MyApp.Repositories
         public async Task<List<Comment>> GetAll()
         {
             var comments = await _context.Comments.ToListAsync();
+
+            return comments;
+        }
+
+        public async Task<List<UserCommentDto>> GetByTaskId(int taskId)
+        {
+            var comments = await _context.Comments
+                .Where(c => c.TaskId == taskId)
+                .Select(c => new UserCommentDto
+                {
+                    Id = c.Id,
+                    Content = c.Content,
+                    CreatedAt = c.CreatedAt,
+                    User = new CommentUserDto
+                    {
+                        Name = c.User.Name,
+                        Surname = c.User.Surname,
+                        IconPath = c.User.IconPath
+                    }
+                })
+                .ToListAsync();
 
             return comments;
         }

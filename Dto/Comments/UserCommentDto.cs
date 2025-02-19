@@ -11,6 +11,7 @@ namespace MyApp.Dto.Comments
     {
         public int Id { get; set; }
         public string Content { get; set; } = String.Empty;
+        public DateTime CreatedAt { get; set; }
         public CommentUserDto? User { get; set; }
     }
 }

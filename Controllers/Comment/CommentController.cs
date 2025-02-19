@@ -25,6 +25,12 @@ namespace MyApp.Controllers.Comment
 
             return Ok(result);
         }
+        [HttpGet("{taskId}")]
+        public async Task<IActionResult> GetByTasKId([FromRoute] int taskId)
+        {
+            var result = await _commentRepo.GetByTaskId(taskId);
+            return Ok(result);
+        }
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] NewCommentDto newCommentDto)
         {
