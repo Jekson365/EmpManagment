@@ -3,7 +3,6 @@ using System.Text.Json.Serialization;
 using DotNetEnv;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
 using MyApp.Interfaces;
