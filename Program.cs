@@ -3,7 +3,6 @@ using System.Text.Json.Serialization;
 using DotNetEnv;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
 using MyApp.Interfaces;
@@ -59,6 +58,8 @@ builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<INoteRepository, NoteRepository>();
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     var connection = builder.Configuration.GetConnectionString("DefaultConnection");

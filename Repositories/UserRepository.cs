@@ -48,11 +48,16 @@ namespace MyApp.Repositories
                 {
                     Name = userDto.Name,
                     Surname = userDto.Surname,
-                Email = userDto.Email,
+                    Email = userDto.Email,
                     IconPath = uniqueFileName,
                     Age = userDto.Age,
                     RoleId = role.Id,
-                    Password = hasher.HashPassword(null, userDto.Password)
+                    Password = hasher.HashPassword(null, userDto.Password),
+                    PhoneNumber = userDto.PhoneNumber,
+                    BirthDate = userDto.BirthDate.ToUniversalTime(),
+                    TrustedContact = userDto.TrustedContact,
+                    HiredDate = userDto.HiredDate.ToUniversalTime(),
+                    Position = userDto.Position
                 };
                 var validateUser = _validator.Validate(userRecord);
                 if (validateUser.IsValid)
