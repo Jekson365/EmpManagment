@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/009acfa5-7a01-47df-b4fb-e47ffee1e66c_premium_photo-1689568126014-06fea9d5d341.jpeg",
+      "PackagePath": "staticwebassets/uploads/009acfa5-7a01-47df-b4fb-e47ffee1e66c_premium_photo-1689568126014-06fea9d5d341.jpeg"
+    },
+    {
       "Id": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg",
       "PackagePath": "staticwebassets/uploads/03f3785e-1727-46f9-8eab-5f06888f85cf__ (1).jpeg"
     },
@@ -127,6 +131,14 @@
     {
       "Id": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).jpeg",
       "PackagePath": "staticwebassets/uploads/9d913079-afa7-4f53-99e1-795a82bca8fa__ (1).jpeg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/a00c49c4-2aa3-4b30-b60e-03cb08340918_premium_photo-1689568126014-06fea9d5d341.jpeg",
+      "PackagePath": "staticwebassets/uploads/a00c49c4-2aa3-4b30-b60e-03cb08340918_premium_photo-1689568126014-06fea9d5d341.jpeg"
+    },
+    {
+      "Id": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/a010d179-368c-4652-8c43-ae37e6e96acd_1-intro-photo-final.jpg",
+      "PackagePath": "staticwebassets/uploads/a010d179-368c-4652-8c43-ae37e6e96acd_1-intro-photo-final.jpg"
     },
     {
       "Id": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/aa3242f0-219f-487c-8b66-668896959f75__.jpeg",

@@ -52,6 +52,7 @@ namespace MyApp.Repositories
                 .Where(na => na.UserId == userId)
                 .Select(na => new IndexNoteAssignedDto
                 {
+                    CreatedAt = na.Note.CreatedAt,
                     IconPath = na.Note.user.IconPath,
                     Content = na.Note.Content,
                     UserId = na.UserId

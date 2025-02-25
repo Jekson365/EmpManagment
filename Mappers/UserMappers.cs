@@ -17,7 +17,12 @@ namespace MyApp.Mappers
                 Name = userDto.Name,
                 Surname = userDto.Surname,
                 Email = userDto.Email,
-                Age = userDto.Age
+                Age = userDto.Age,
+                PhoneNumber = userDto.PhoneNumber,
+                TrustedContact = userDto.TrustedContact,
+                BirthDate = userDto.BirthDate,
+                Position = userDto.Position,
+                HiredDate = userDto.HiredDate
             };
         }
         public static ShowUserDto ToShowUserDto(this User userModel)
@@ -29,6 +34,11 @@ namespace MyApp.Mappers
                 Email = userModel.Email,
                 Surname = userModel.Surname,
                 Age = userModel.Age,
+                PhoneNumber = userModel.PhoneNumber,
+                TrustedContact = userModel.TrustedContact,
+                BirthDate = userModel.BirthDate,
+                Position = userModel.Position,
+                HiredDate = userModel.HiredDate,
                 IconPath = userModel.IconPath,
                 Role = new RoleDto
                 {

@@ -17,6 +17,11 @@ namespace MyApp.Models
         public int Age { get; set; }
         public string? IconPath { get; set; }
         public int RoleId { get; set; }
+        public string TrustedContact { get; set; } = String.Empty;
+        public string PhoneNumber { get; set; } = String.Empty;
+        public DateTime BirthDate {get;set;}
+        public string Position {get;set;} = String.Empty;
+        public DateTime HiredDate {get;set;}
         public Role Role { get; set; }
         public string Password { get; set; } = String.Empty;
         public ICollection<AssignedTask> assignedTasks = new List<AssignedTask>();
