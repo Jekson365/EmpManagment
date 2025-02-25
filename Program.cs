@@ -58,6 +58,8 @@ builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<INoteRepository, NoteRepository>();
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     var connection = builder.Configuration.GetConnectionString("DefaultConnection");

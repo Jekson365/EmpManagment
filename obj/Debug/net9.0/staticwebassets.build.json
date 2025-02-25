@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p88JR7P8xzEzBi33ksolDDy2YgPjkYzS/D/fXKJuLgw=",
+  "Hash": "hg6+upgOGF4ZfbkOxEgmFpKY6jSLQuf9Fit9zheGnYo=",
   "Source": "MyApp",
   "BasePath": "_content/MyApp",
   "Mode": "Default",
@@ -267,6 +267,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/uploads/4a60b459-0444-44fe-a121-3c48c095187f__.jpeg"
+    },
+    {
+      "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/4b00aacc-709d-4193-93df-1a2d0477f14e_photo-1494790108377-be9c29b29330.jpeg",
+      "SourceId": "MyApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jeko/Desktop/css/try/MyApp/wwwroot/",
+      "BasePath": "_content/MyApp",
+      "RelativePath": "uploads/4b00aacc-709d-4193-93df-1a2d0477f14e_photo-1494790108377-be9c29b29330#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hhehlqozq9",
+      "Integrity": "a3/qFjUDDjjc2oAIdYb3WeM8IB13/mV5TF+sJzx0VDo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/4b00aacc-709d-4193-93df-1a2d0477f14e_photo-1494790108377-be9c29b29330.jpeg"
     },
     {
       "Identity": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/4dcc6a4e-7448-404c-b840-a8a3a83339c8_MainAfter.jpg",
@@ -1881,6 +1902,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Olq39rE9zQne/uKS5GDlyM8/4LpHMx+83sXz8Sk92cw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4b00aacc-709d-4193-93df-1a2d0477f14e_photo-1494790108377-be9c29b29330.hhehlqozq9.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/4b00aacc-709d-4193-93df-1a2d0477f14e_photo-1494790108377-be9c29b29330.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "613592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a3/qFjUDDjjc2oAIdYb3WeM8IB13/mV5TF+sJzx0VDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 20:13:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hhehlqozq9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/4b00aacc-709d-4193-93df-1a2d0477f14e_photo-1494790108377-be9c29b29330.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a3/qFjUDDjjc2oAIdYb3WeM8IB13/mV5TF+sJzx0VDo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4b00aacc-709d-4193-93df-1a2d0477f14e_photo-1494790108377-be9c29b29330.jpeg",
+      "AssetFile": "/home/jeko/Desktop/css/try/MyApp/wwwroot/uploads/4b00aacc-709d-4193-93df-1a2d0477f14e_photo-1494790108377-be9c29b29330.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "613592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a3/qFjUDDjjc2oAIdYb3WeM8IB13/mV5TF+sJzx0VDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 20:13:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a3/qFjUDDjjc2oAIdYb3WeM8IB13/mV5TF+sJzx0VDo="
         }
       ]
     },

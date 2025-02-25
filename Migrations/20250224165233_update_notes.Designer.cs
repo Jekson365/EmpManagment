@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyApp.Data;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MyApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250224165233_update_notes")]
+    partial class update_notes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,15 +67,18 @@ namespace MyApp.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int>("CreateById")
+                        .HasColumnType("integer");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<int>("UserId")
+                    b.Property<int>("CreatedById")
                         .HasColumnType("integer");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("CreateById");
 
                     b.ToTable("Notes");
                 });
@@ -257,11 +263,13 @@ namespace MyApp.Migrations
 
             modelBuilder.Entity("MyApp.Models.Notes.Note", b =>
                 {
-                    b.HasOne("MyApp.Models.User", null)
+                    b.HasOne("MyApp.Models.User", "User")
                         .WithMany("Notes")
-                        .HasForeignKey("UserId")
+                        .HasForeignKey("CreateById")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("MyApp.Models.Notes.NoteAssigned", b =>

@@ -5,6 +5,7 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Models;
 using MyApp.Models.Comments;
+using MyApp.Models.Notes;
 using MyApp.Models.Tasks;
 
 namespace MyApp.Data
@@ -20,7 +21,6 @@ namespace MyApp.Data
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Email)
                 .IsUnique();
-
             modelBuilder.Entity<User>()
                 .HasOne(u => u.Role)
                 .WithMany(r => r.Users)
@@ -39,5 +39,7 @@ namespace MyApp.Data
         public DbSet<Models.Tasks.Task> Tasks { get; set; }
         public DbSet<Models.Statuses.TaskStatus> TaskStatuses { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<Note> Notes { get; set; }
+        public DbSet<NoteAssigned> NotesAssigned { get; set; }
     }
 }
