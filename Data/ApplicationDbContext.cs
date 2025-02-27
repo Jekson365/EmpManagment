@@ -7,6 +7,7 @@ using MyApp.Models;
 using MyApp.Models.Comments;
 using MyApp.Models.Notes;
 using MyApp.Models.Tasks;
+using MyApp.Models.Vacations;
 
 namespace MyApp.Data
 {
@@ -41,5 +42,7 @@ namespace MyApp.Data
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Note> Notes { get; set; }
         public DbSet<NoteAssigned> NotesAssigned { get; set; }
+        public DbSet<Vacation> vacations {get;set;}
+        public DbSet<VacationStatus> VacationStatuses {get;set;}
     }
 }

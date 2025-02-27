@@ -62,7 +62,7 @@ builder.Services.AddScoped<INoteRepository, NoteRepository>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
-    var connection = builder.Configuration.GetConnectionString("DefaultConnection");
+    var connection = builder.Configuration.GetConnectionString("db1");
     options.UseNpgsql(connection);
 
 });

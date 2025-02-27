@@ -12,8 +12,8 @@ namespace MyApp.Validators
         public UserValidator()
         {
             RuleFor(p => p.Name)
-                .NotEmpty().WithMessage("name should not be empty!")
-                .Length(1, 15).WithMessage("name length should be between  1 and 15");
+                    .NotEmpty().WithMessage("სახელი ველი აუცილებელია")
+                    .Length(1, 15).WithMessage("name length should be between  1 and 15");
             RuleFor(p => p.Surname)
                 .NotEmpty().WithMessage("surname is empty!!!")
                 .Length(1, 20).WithMessage("surname field should be between 1 and 20");

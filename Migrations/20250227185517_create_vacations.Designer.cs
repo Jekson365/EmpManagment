@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyApp.Data;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MyApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250227185517_create_vacations")]
+    partial class create_vacations
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -254,70 +257,6 @@ namespace MyApp.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("MyApp.Models.Vacations.Vacation", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("AssignedToId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("AssignedUserId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("CreatedById")
-                        .HasColumnType("integer");
-
-                    b.Property<DateTime>("EndDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<string>("Reason")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<DateTime>("StartDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<int>("StatusId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
-
-                    b.Property<int?>("VacationStatusId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AssignedUserId");
-
-                    b.HasIndex("UserId");
-
-                    b.HasIndex("VacationStatusId");
-
-                    b.ToTable("vacations");
-                });
-
-            modelBuilder.Entity("MyApp.Models.Vacations.VacationStatus", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("VacationStatuses");
-                });
-
             modelBuilder.Entity("MyApp.Models.Comments.Comment", b =>
                 {
                     b.HasOne("MyApp.Models.Tasks.Task", "Task")
@@ -408,29 +347,6 @@ namespace MyApp.Migrations
                     b.Navigation("Role");
                 });
 
-            modelBuilder.Entity("MyApp.Models.Vacations.Vacation", b =>
-                {
-                    b.HasOne("MyApp.Models.User", "AssignedUser")
-                        .WithMany()
-                        .HasForeignKey("AssignedUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("MyApp.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("MyApp.Models.Vacations.VacationStatus", null)
-                        .WithMany("Vacations")
-                        .HasForeignKey("VacationStatusId");
-
-                    b.Navigation("AssignedUser");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("MyApp.Models.Role", b =>
                 {
                     b.Navigation("Users");
@@ -449,11 +365,6 @@ namespace MyApp.Migrations
             modelBuilder.Entity("MyApp.Models.User", b =>
                 {
                     b.Navigation("Notes");
-                });
-
-            modelBuilder.Entity("MyApp.Models.Vacations.VacationStatus", b =>
-                {
-                    b.Navigation("Vacations");
                 });
 #pragma warning restore 612, 618
         }
