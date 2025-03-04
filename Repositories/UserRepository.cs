@@ -124,5 +124,11 @@ namespace MyApp.Repositories
             await _context.SaveChangesAsync();
             return user.ToShowUserDto();
         }
+        public async Task<List<User>> GetBySuperAdmin()
+        {
+            var result = await _context.Users.Where(u => u.RoleId == 3).ToListAsync();
+
+            return result;
+        }
     }
 }

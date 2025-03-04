@@ -31,7 +31,7 @@ namespace MyApp.Controllers
             _userRepo = userRepo;
             _validator = validator;
         }
-        
+
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] CreateUserDto userModel)
         {
@@ -94,6 +94,13 @@ namespace MyApp.Controllers
             }
 
             return Ok(user.ToShowUserDto());
+        }
+        [HttpGet("supers")]
+        public async Task<IActionResult> GetBySuperAdmin()
+        {
+            var result = await _userRepo.GetBySuperAdmin();
+
+            return Ok(result);
         }
     }
 }
